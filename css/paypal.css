@@ -1,0 +1,16 @@
+/* Estilo para el boton de Paypal */
+
+ /* Media query for mobile viewport */
+ @media screen and (max-width: 400px) {
+    #paypal-button-container {
+        width: 100%;
+    }
+}
+
+/* Media query for desktop viewport */
+@media screen and (min-width: 400px) {
+    #paypal-button-container {
+        width: 250px;
+        margin-left: calc(50% - 125px);
+    }
+}
